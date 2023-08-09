@@ -26,3 +26,13 @@ Posh-git, an optional lib
 
 *) for unstaging a folder and its contents
 git rm --cached "D:/Other Setups 2/tig/folder skip/skip.txt"
+
+*) 
+…or create a new repository on the command line
+echo "# tig" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nmsh911/tig.git
+git push -u origin main
