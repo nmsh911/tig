@@ -21,4 +21,8 @@ git config --global core.autocrlf true
 
 
 ***) Chapter 2
-*) Posh-git, an optional lib
+*) 
+Posh-git, an optional lib
+
+*) for unstaging a folder and its contents
+git rm --cached "D:/Other Setups 2/tig/folder skip/skip.txt"
